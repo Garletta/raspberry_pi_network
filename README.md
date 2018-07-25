@@ -72,3 +72,15 @@ raspberry pi 树莓派 有线联网和无线WIFI
     sudo rm -rf interfaces  
 
 注意不要删错了，重新接入WIFI，重启电脑即可！
+
+
+## wired.sh  
+  
+  一键有线网络连接配置 `bash` 脚本  
+  需提供静态`IP`，网关，掩码  
+
+## wireless.sh  
+  
+  一键`WIFI`网络连接配置 `bash` 脚本  
+  需提供`WIFI`名称，`WIFI`密码  
+
