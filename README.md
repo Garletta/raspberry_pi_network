@@ -11,11 +11,12 @@ raspberry pi 树莓派 有线联网和无线WIFI
 命令界面  
 `sudo vim /etc/wpa_supplicant/wpa_supplicant.conf`  
 
-增加如下内容：  
+在文件尾部增加如下内容：  
 
     network{   
       ssid="" //无线网名称   
       psk="" //无线网密码   
+      key_mgmt=WPA-PSK  
     }  
   
 ## 有线连接网络  
